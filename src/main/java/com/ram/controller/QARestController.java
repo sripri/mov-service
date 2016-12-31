@@ -104,7 +104,7 @@ public class QARestController {
 				return ResponseEntity.ok(Math.round(Double.parseDouble(eval))+"");
 				
 			case "Source":
-				return ResponseEntity.ok("https://github.com/rubiconvale/movology.git");
+				return ResponseEntity.ok("https://github.com/sripri/mov-service.git");
 				
 			case "Resume":
 				return ResponseEntity.ok("https://drive.google.com/weiouwoueriwurw");
